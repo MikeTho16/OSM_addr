@@ -11,6 +11,11 @@ https://www.unitedstateszipcodes.org/zip-code-database/
 
 Usage
 $ python3 addr_qc addresses.osm
+
+Under Linux you can create a symbolic link to this file so that you can execute
+if from anywhere on your system.
+* Open a terminal and navigate to ~/.local/bin
+* $ ln -s /path_to_this_file/addr_qc.py addr_qc
 """
 from xml.etree import ElementTree
 import argparse
